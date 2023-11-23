@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
-    "calculator": "ts-node calculator.ts",
-    "calculator2": "ts-node calculator2.ts",
-    "multiplier": "ts-node multiplier.ts",
+    "calculator": "ts-node calculator-example/calculator.ts",
+    "calculator2": "ts-node calculator-example/calculator2.ts",
+    "calculator3": "ts-node calculator-example/calculator3.ts",
+    "multiplier": "ts-node multiplier-example/multiplier.ts",
+    "multiplier2": "ts-node multiplier-example/multiplier2.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

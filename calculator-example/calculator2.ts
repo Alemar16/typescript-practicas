@@ -1,3 +1,6 @@
+// En este caso se definemdentro de los parametros el tipo de variable que va a retornar por ejemplo: en op: 'multiply' | 'add' | 'divide' y asi se evita crear una variable con un array de string.
+
+
 const calculator2 = (a: number, b: number, op: 'multiply' | 'add' | 'divide') => {
   if (op === 'multiply') return a * b
   if (op === 'add') return a + b

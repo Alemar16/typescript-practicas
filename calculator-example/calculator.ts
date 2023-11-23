@@ -1,3 +1,8 @@
+//En este caso se define una constante operations que es un arreglo de strings
+ //y dentro de la constante calculator se define una función que recibe 3 parámetros (a, b, op)
+//y en los parametros a , b, y op se le asigna un valor de tipo epecificado para la operación
+
+
 const operations = ['multiply', 'add', 'divide']
 const calculator = (a: number, b: number, op: string) => {
   if (!operations.includes(op)) {
